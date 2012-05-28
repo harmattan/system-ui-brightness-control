@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "Restarting status menu"
+/sbin/stop xsession/sysuid
+sleep 1
+/sbin/start xsession/sysuid
+
+exit 0

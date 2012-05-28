@@ -1,0 +1,14 @@
+Source: system-ui-brightness-control
+Section: user/other
+Priority: optional
+Maintainer: Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>
+Build-Depends: debhelper (>= 5), libqt4-dev, libmeegotouch-dev
+Standards-Version: 3.7.3
+
+Package: system-ui-brightness-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, unrestricted-system-ui
+Description: Brightness plugin in status menu
+ A status menu plugin that can be used to change
+ the brightness of the display.
+XSBC-Maemo-Display-Name: Brightness control status menu applet
