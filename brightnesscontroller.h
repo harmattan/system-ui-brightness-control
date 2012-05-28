@@ -8,7 +8,6 @@
 #include <gq/GConfItem>
 
 class MStatusIndicatorMenuInterface;
-class ProfilePlugin;
 
 class BrightnessController : public MWidget
 {
